@@ -1,8 +1,8 @@
 #!/bin/bash
 
 rm -rf ~/.zshrc
-apt-get -y install zsh
-apt-get -y install git
+yum -y install zsh
+yum -y install git
 
 # install oh my zsh
 rm -rf ~/.oh-my-zsh
